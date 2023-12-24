@@ -1,0 +1,17 @@
+/* HeroScrollbar.css */
+body.hero-page::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  body.hero-page::-webkit-scrollbar-thumb {
+    background: #222; /* Change this to your desired scrollbar color */
+  }
+  
+  body.hero-page::-webkit-scrollbar-thumb:hover {
+    background: lighten(#ff0000, 10%);
+  }
+  
+  body.hero-page::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  

@@ -1,0 +1,191 @@
+/* counter */
+.CounterUp {
+  height: 35rem;
+  width: 99vw;
+  background: linear-gradient(to right,
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)), url('../assets/world_giffy.gif');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: grid;
+  place-items: center;
+  background-attachment: fixed;
+}
+
+.CounterOn {
+  font-size: 12px;
+  color: #fff;
+  text-align: center;
+  font-family: Rubik;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+/* for about page */
+.article {
+  height: 40rem;
+  width: 99vw;
+  background: linear-gradient(to right,
+      rgba(0, 0, 0, 0.45),
+      rgba(0, 0, 0, 0.45)), url('../assets/med.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: grid;
+  place-items: center;
+  background-attachment: fixed;
+}
+
+.header {
+  font-size: 4rem;
+  color: #fff;
+  text-align: center;
+  font-family: Rubik;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.link {
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+  margin: 1px;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-family: Rubik;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+
+/* for product */
+.product {
+  height: 40rem;
+  width: 99vw;
+  background: linear-gradient(to right,
+      rgba(0, 0, 0, 0.45),
+      rgba(0, 0, 0, 0.45)), url('../assets/backHome1.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: grid;
+  place-items: center;
+  background-attachment: fixed;
+}
+
+/* for product */
+.Home {
+  height: 45rem;
+  width: 99vw;
+  background: linear-gradient(to right,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)), url('../assets/backHome1.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: grid;
+  place-items: center;
+  background-attachment: fixed;
+}
+
+/* animated.module.css */
+/* animated.module.css */
+
+.HomeImage {
+  animation-name: upAndDown;
+  animation-duration: 6s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+
+  /* Keyframes for the animation */
+}
+
+@keyframes upAndDown {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-25px);
+    /* Move up slowly */
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* card craousel  */
+.CardCrousel {
+  height: 40rem;
+  width: 99vw;
+  background: linear-gradient(to bottom,
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)), url('../assets/med.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: grid;
+  place-items: center;
+  background-attachment: fixed;
+}
+
+/* Button Style */
+
+/* CSS */
+.homeButton {
+  align-items: center;
+  appearance: none;
+  background-color: #FCFCFD;
+  border-radius: 4px;
+  border-width: 0;
+  border-radius: 4rem;
+  width: 9rem;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #36395A;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono", monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s, transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow, transform;
+  -webkit-font-smoothing: antialiased; /* Add this line for smoother text */
+  font-size: 18px;
+}
+
+.homeButton:focus {
+  box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+.homeButton:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  transform: translateY(-2px);
+  -webkit-font-smoothing: subpixel-antialiased; 
+}
+
+.homeButton:active {
+  box-shadow: #D6D6E7 0 3px 7px inset;
+  transform: translateY(2px);
+}
+.text{
+  text-align: center;
+  width: 100%;
+  margin: 1rem 0rem;
+}
