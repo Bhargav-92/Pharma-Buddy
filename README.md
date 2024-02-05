@@ -19,3 +19,6 @@
 
 * **React Notification Component**
   - [npm i react-notifications-component](https://www.npmjs.com/package/react-notifications-component)
+    
+* **React Spring 3D Craousel**
+  - [npm i react-spring-3d-carousel](https://www.npmjs.com/package/react-spring-3d-carousel)
