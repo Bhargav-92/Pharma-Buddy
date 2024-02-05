@@ -22,3 +22,8 @@
     
 * **React Spring 3D Craousel**
   - [npm i react-spring-3d-carousel](https://www.npmjs.com/package/react-spring-3d-carousel)
+
+ **Snippets**
+
+ ![image](https://github.com/Bhargav-92/Pharma-Buddy/assets/77744221/fd637cb6-363d-462a-8f32-68c454597421)
+
