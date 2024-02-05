@@ -25,5 +25,6 @@
 
  **Snippets**
 
- ![image](https://github.com/Bhargav-92/Pharma-Buddy/assets/77744221/fd637cb6-363d-462a-8f32-68c454597421)
+![image](https://github.com/Bhargav-92/Pharma-Buddy/assets/77744221/9c5b5fe6-990d-4550-ac51-4ddc5954be94)
+
 
